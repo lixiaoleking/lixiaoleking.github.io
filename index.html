@@ -1,1101 +1,490 @@
+
+
 <!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
-  
-
-
-<html class="theme-next muse use-motion" lang="zh-CN">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="李小乐">
+  <meta name="keywords" content="">
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
-
-
-
-
-
-
-<meta property="og:type" content="website">
+    <meta property="og:type" content="website">
 <meta property="og:title" content="Welcome to Lee&#39;s Home">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Welcome to Lee&#39;s Home">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="李小乐">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Welcome to Lee&#39;s Home</title>
 
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '',
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: true,
-    duoshuo: {
-      userId: '0',
-      author: 'Author'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://example.com/"/>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
 
 
 
-  <title>Welcome to Lee's Home</title>
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
 
 
 
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.2","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
 
 
-
-
-
-
-
-
-
-
+  
 <meta name="generator" content="Hexo 6.2.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
-  
-  
-    
+<body>
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <header>
     
 
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Welcome to Lee's Home</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
     </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
   </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            Archives
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
 </nav>
 
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
   
 
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/26/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8E%BB%E5%81%9A%E4%BF%A1%E7%94%A8%E9%A2%84%E6%B5%8B%EF%BC%9F/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Welcome to Lee's Home">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2022/08/26/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8E%BB%E5%81%9A%E4%BF%A1%E7%94%A8%E9%A2%84%E6%B5%8B%EF%BC%9F/" itemprop="url">如何使用机器学习去做信用预测？</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-08-26T01:48:57+08:00">
-                2022-08-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
           
-
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
         
-          
-            <h1 id="苏宁笔试题"><a href="#苏宁笔试题" class="headerlink" title="苏宁笔试题"></a>苏宁笔试题</h1><blockquote>
-<p>引子：苏宁给了一份笔试题，给了500个标注数据和68个test数据，要求给出这68个sample是否违约的概率。</p>
-<p>借此机会，整理机器学习的流程和基础知识。</p>
-</blockquote>
-<h1 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h1><h2 id="弄懂训练集、验证集、测试集★"><a href="#弄懂训练集、验证集、测试集★" class="headerlink" title="弄懂训练集、验证集、测试集★"></a>弄懂训练集、验证集、测试集★</h2><h2 id="评价指标ROC"><a href="#评价指标ROC" class="headerlink" title="评价指标ROC"></a>评价指标ROC</h2><h1 id="数据读入"><a href="#数据读入" class="headerlink" title="数据读入"></a>数据读入</h1><ul>
-<li>数据源链接</li>
-<li>题目要求</li>
-</ul>
-<h1 id="数据EDA与可视化"><a href="#数据EDA与可视化" class="headerlink" title="数据EDA与可视化"></a>数据EDA与可视化</h1><h1 id="模型选择"><a href="#模型选择" class="headerlink" title="模型选择"></a>模型选择</h1><h1 id="项目总结"><a href="#项目总结" class="headerlink" title="项目总结"></a>项目总结</h1>
-          
-        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
+</div>
 
+</div>
 
+  </header>
+
+  <main>
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/24/%E7%8B%82%E7%A5%9E%E8%AF%B4-git%E6%95%99%E7%A8%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Welcome to Lee's Home">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
                 
-                <a class="post-title-link" href="/2022/08/24/%E7%8B%82%E7%A5%9E%E8%AF%B4-git%E6%95%99%E7%A8%8B/" itemprop="url">狂神说-git教程</a></h1>
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
         
+        <a href="/2022/08/26/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8E%BB%E5%81%9A%E4%BF%A1%E7%94%A8%E9%A2%84%E6%B5%8B%EF%BC%9F/" target="_self">
+          如何使用机器学习去做信用预测？
+        </a>
+      </h1>
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-08-24T23:34:08+08:00">
-                2022-08-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/08/26/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8E%BB%E5%81%9A%E4%BF%A1%E7%94%A8%E9%A2%84%E6%B5%8B%EF%BC%9F/" target="_self">
+        <div>
+          苏宁笔试题 引子：苏宁给了一份笔试题，给了500个标注数据和68个test数据，要求给出这68个sample是否违约的概率。 借此机会，整理机器学习的流程和基础知识。  前置知识弄懂训练集、验证集、测试集★评价指标ROC数据读入 数据源链接 题目要求  数据EDA与可视化模型选择项目总结
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-            <h1 id="前置基础知识"><a href="#前置基础知识" class="headerlink" title="前置基础知识"></a>前置基础知识</h1><p>本地版本控制</p>
-<p>集中式版本控制 SVN</p>
-<p>分布式版本控制 Git</p>
-<ul>
-<li>先看结论</li>
-</ul>
-<p><img src="/../images/image-20220825004646296.png" alt="image-20220825004646296"></p>
-<ul>
-<li>git clone your_remote_url</li>
-</ul>
-<h1 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h1><p>找淘宝镜像下载即可。</p>
-<p><img src="/../images/image-20220824234208836.png" alt="image-20220824234208836"></p>
-<p>安装完毕如上图。任意文件夹下面，右键就能看到 git bash git GUI</p>
-<h2 id="linux-命令-操作bash"><a href="#linux-命令-操作bash" class="headerlink" title="linux 命令-操作bash"></a>linux 命令-操作bash</h2><p><img src="/../images/image-20220824234415798.png" alt="image-20220824234415798"></p>
-<h2 id="git-配置"><a href="#git-配置" class="headerlink" title="git 配置"></a>git 配置</h2><p>安装完成之后，可以单独建立文件夹，运行的代码都存储在这个文件夹，好管理。比如我在e盘建立gitlearn文件夹</p>
-<p><img src="/../images/image-20220824234834995.png" alt="image-20220824234834995"></p>
-<p>上图的 user.name user.name 是我的github的邮箱和用户名！</p>
-<p>因此首先要有一个github账户（自行百度）。</p>
-<ul>
-<li>git config –global –list # 可以查看本地的配置</li>
-<li><img src="/../images/image-20220824235138745.png" alt="image-20220824235138745"></li>
-</ul>
-<h3 id="如何配置？"><a href="#如何配置？" class="headerlink" title="如何配置？"></a>如何配置？</h3><p><img src="/../images/image-20220824235230017.png" alt="image-20220824235230017"></p>
-<ul>
-<li>非常重要！</li>
-</ul>
-<p>至此 准备工作完成</p>
-<h1 id="基本理论（核心）"><a href="#基本理论（核心）" class="headerlink" title="基本理论（核心）"></a>基本理论（核心）</h1><h2 id="工作区域"><a href="#工作区域" class="headerlink" title="工作区域"></a>工作区域</h2><p><img src="/../images/image-20220824235553129.png" alt="image-20220824235553129"></p>
-<p>首先，默认是本地目录（work directory）然后通过 add 添加到暂存区stage ，通过 commit 之后到达 History区，最后git push 到远程目录。我们一般只关系工作区和远程空间。</p>
-<p><img src="/../images/image-20220824235948814.png" alt="image-20220824235948814"></p>
-<p><strong>基本流程</strong></p>
-<ul>
-<li><img src="/../images/image-20220825000223417.png" alt="image-20220825000223417"></li>
-</ul>
-<h2 id="项目搭建"><a href="#项目搭建" class="headerlink" title="项目搭建"></a>项目搭建</h2><p><img src="/../images/image-20220825000319338.png" alt="image-20220825000319338"></p>
-<h3 id="本地的搭建"><a href="#本地的搭建" class="headerlink" title="本地的搭建"></a>本地的搭建</h3><p>先在本地建立文件夹。</p>
-<ul>
-<li>先在一个文件夹下面 执行 git init<ul>
-<li><img src="/../images/image-20220825000512590.png" alt="image-20220825000512590"></li>
-</ul>
-</li>
-</ul>
-<h3 id="远程clone"><a href="#远程clone" class="headerlink" title="远程clone"></a>远程clone</h3><p><code>git clone url</code></p>
-<p><img src="/../images/image-20220825001428957.png" alt="image-20220825001428957"></p>
-<h2 id="git-文件操作"><a href="#git-文件操作" class="headerlink" title="git 文件操作"></a>git 文件操作</h2><p><img src="/../images/image-20220825001606561.png" alt="image-20220825001606561"></p>
-<p><img src="/../images/image-20220825001847338.png" alt="image-20220825001847338"></p>
-<p><img src="/../images/image-20220825002024523.png" alt="image-20220825002024523"></p>
-<p>注意：本地仓库不是工作空间。</p>
-<p><strong>本地仓库就在你本地的机子上面，可以想象成一个“游戏存档”，一会还需要推送到远程的仓库。</strong></p>
-<h3 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h3><p>要写在 .gitignore 这个配置文件里面。</p>
-<p><img src="/../images/image-20220825002244844.png" alt="image-20220825002244844"></p>
-<h1 id="使用gitee"><a href="#使用gitee" class="headerlink" title="使用gitee"></a>使用gitee</h1><p><img src="/../images/image-20220825002742950.png" alt="image-20220825002742950"></p>
-<ul>
-<li>首先在自己的C盘下面找到 .ssh 目录。<ul>
-<li><img src="/../images/image-20220825003234319.png" alt="image-20220825003234319"></li>
-</ul>
-</li>
-<li><img src="/../images/image-20220825003348777.png" alt="image-20220825003348777"></li>
-<li>在任意文件夹下执行 ssh-keygen 就会在C盘的那个位置生成两个文件。</li>
-<li>配置 公钥到 gitee 上面</li>
-<li>在gitee 新建仓库即可，最后再本地git clone url</li>
-</ul>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Welcome to Lee's Home">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2022/08/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" itemprop="url">如何使用github和hexo搭建个人博客</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-08-24T18:48:38+08:00">
-                2022-08-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天学习课外知识，又是摸鱼的一天。</p>
-<blockquote>
-<p>引子：看到本科导师在朋友圈评论 Markdown给字体加颜色不支持 jekyllrb ，好奇这个是什么工具。于是今天进行学习。后来在b站一个视频，了解一个快速搭建个人博客网站的工具，hexo。本质上和jekyllrb 一样，都是建站的。于是产生这个学习笔记。</p>
-</blockquote>
-<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><ul>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_48485223/article/details/122709354">安装</a> nodejs</li>
-<li>安装 npm</li>
-<li>安装 cnpm<ul>
-<li>npm install -g cnpm –registry&#x3D;<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a> # 换成本地的源</li>
-</ul>
-</li>
-</ul>
-<h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><ol>
-<li>cnpm install -g hexo-cli</li>
-<li>hexo -v 进行验证</li>
-<li>在目标盘建立文件夹  mkdir bolgs</li>
-<li>cd blogs</li>
-<li>hexo init   就会从github上面 clone 一些内容</li>
-<li>hexo s   启动博客   成功了！！</li>
-</ol>
-<p><img src="/../images/1661314903665-43507cec-2796-4f92-b6e4-96c15a1cba6f.png" alt="image.png"></p>
-<h2 id="如何写自己的博客"><a href="#如何写自己的博客" class="headerlink" title="如何写自己的博客"></a>如何写自己的博客</h2><ol>
-<li>hexo n “我的第一篇文章”</li>
-<li>会产生一篇md文件，路径在source的_post下</li>
-<li>完成本地的书写之后。</li>
-<li>在blogs 文件夹下，安装 cnpm install –save hexo-deployer-git</li>
-<li>设置 _config.yml 文件，如何建立github库，百度一下。</li>
-</ol>
-<p><img src="/../images/image-20220824190033499.png" alt="image-20220824190033499"></p>
-<ol start="6">
-<li>要在github建立一个”用户名.github.io”的库，要学会使用 git bash（需自学）</li>
-<li>git config –global user.email “<a href="mailto:&#x78;&#120;&#x78;&#120;&#x78;&#x78;&#x78;&#64;&#49;&#54;&#x33;&#46;&#x63;&#111;&#109;">&#x78;&#120;&#x78;&#120;&#x78;&#x78;&#x78;&#64;&#49;&#54;&#x33;&#46;&#x63;&#111;&#109;</a>“</li>
-<li>git config –global user.name “your_username”</li>
-<li>hexo clean</li>
-<li>hexo g</li>
-<li>hexo d 这一步就会把本地的上传到你第5步配置的 github 库里面去。</li>
-</ol>
-<p>如果执行都正常，网页输入 your_username.github.io 应该就能展示了。</p>
-<h2 id="如何换主题？"><a href="#如何换主题？" class="headerlink" title="如何换主题？"></a>如何换主题？</h2><p>github 搜索 hexo ，找到顺眼的<a target="_blank" rel="noopener" href="https://github.com/fluid-dev/hexo-theme-fluid">主题</a>。</p>
-<p>里面<strong>大概率</strong>会有介绍使用方法，一般就是把主题下载到项目根文件夹下的themes ，然后修改_config.yml 文件</p>
-<p><img src="/../images/image-20220824190845784.png" alt="image-20220824190845784"></p>
-<p>折腾一下午，看一下成果</p>
-<p><img src="/../images/image-20220824190941240.png" alt="image-20220824190941240"></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/24/%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAoffer-oppo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Welcome to Lee's Home">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2022/08/24/%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAoffer-oppo/" itemprop="url">秋天的第一个offer-oppo</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-08-24T14:32:34+08:00">
-                2022-08-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="公司"><a href="#公司" class="headerlink" title="公司"></a>公司</h1><p>oppo 数据分析工程师</p>
-<h1 id="timeline"><a href="#timeline" class="headerlink" title="timeline"></a>timeline</h1><h2 id="0802-一面"><a href="#0802-一面" class="headerlink" title="0802 一面"></a>0802 一面</h2><p>自我介绍<br>挑一段印象深刻的实习<br>实习干了啥  有什么难点<br>现在回过头思考之前的项目可以提升的地方<br>扇贝实习，实习干了啥，印象深刻的事情<br>上海图书馆的项目，介绍<br>自己负责的内容，团队成员怎么合作，遇到难点怎么做的。哪些点可以继续提升。<br>反问。</p>
-<h2 id="0805-二面"><a href="#0805-二面" class="headerlink" title="0805 二面"></a>0805 二面</h2><p>自我介绍<br>图书情报是学什么的。<br>数仓有没有用过。<br>扇贝实习内容。<br>上图比赛（难点 负责的内容）<br>用过的分类算法。<br>CNN听过吗？<br>数据异常怎么分析？<br>在工作中 你最看中的是什么。<br>为什么做数分。<br>读研期间学习最吃力的地方<br>反问：看重面试者的哪些品质</p>
-<h2 id="0812-hr面"><a href="#0812-hr面" class="headerlink" title="0812 hr面"></a>0812 hr面</h2><p>自我介绍<br>为什么选数据分析<br>为什么来深圳<br>项目负责内容，自己做了什么？难点是什么？<br>找工作最看重的是什么？<br>对OPPO的了解。<br>投了哪些公司，进展如何</p>
-<h2 id="0823-意向邮件"><a href="#0823-意向邮件" class="headerlink" title="0823 意向邮件"></a>0823 意向邮件</h2><ul>
-<li>撒花</li>
-</ul>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
-
-
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-08-26 01:48" pubdate>
+              2022-08-26
+            </time>
           </div>
-          
-
-
-          
-
-        </div>
         
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">#机器学习</a>
+            
+              <a href="/tags/%E4%BF%A1%E7%94%A8%E9%A2%84%E6%B5%8B/">#信用预测</a>
+            
+              <a href="/tags/%E4%BA%8C%E5%88%86%E7%B1%BB/">#二分类</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
 
-  <aside id="sidebar" class="sidebar">
+  <div class="row mx-auto index-card">
     
-    <div class="sidebar-inner">
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/08/24/%E7%8B%82%E7%A5%9E%E8%AF%B4-git%E6%95%99%E7%A8%8B/" target="_self">
+          狂神说-git教程
+        </a>
+      </h1>
 
       
-
-      
-
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="" />
-          <p class="site-author-name" itemprop="name"></p>
-           
-              <p class="site-description motion-element" itemprop="description"></p>
-          
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/08/24/%E7%8B%82%E7%A5%9E%E8%AF%B4-git%E6%95%99%E7%A8%8B/" target="_self">
+        <div>
+          前置基础知识本地版本控制 集中式版本控制 SVN 分布式版本控制 Git  先看结论    git clone your_remote_url  下载安装找淘宝镜像下载即可。  安装完毕如上图。任意文件夹下面，右键就能看到 git bash git GUI linux 命令-操作bash git 配置安装完成之后，可以单独建立文件夹，运行的代码都存储在这个文件夹，好管理。比如我在e盘建立gitle
         </div>
-        <nav class="site-state motion-element">
+      </a>
 
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">posts</span>
-              </a>
-            </div>
-          
-
-          
-
-          
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-08-24 23:34" pubdate>
+              2022-08-24
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
             
+              <a href="/tags/%E6%95%99%E7%A8%8B%E7%B1%BB/">#教程类</a>
             
-            <div class="site-state-item site-state-tags">
-              
-                <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">tags</span>
-              
-            </div>
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
-        
-        
-
-        
-        
-
-        
-
-
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
+          </div>
         
       </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">李小乐</span>
-</div>
-
-
-<div class="powered-by">
-  Powered by <a class="theme-link" target="_blank" rel="noopener" href="https://hexo.io">Hexo</a>
-</div>
-
-<div class="theme-info">
-  Theme -
-  <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
-  </a>
-</div>
-
-
-        
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
+    </article>
   </div>
 
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/08/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_self">
+          如何使用github和hexo搭建个人博客
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/08/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_self">
+        <div>
+          今天学习课外知识，又是摸鱼的一天。  引子：看到本科导师在朋友圈评论 Markdown给字体加颜色不支持 jekyllrb ，好奇这个是什么工具。于是今天进行学习。后来在b站一个视频，了解一个快速搭建个人博客网站的工具，hexo。本质上和jekyllrb 一样，都是建站的。于是产生这个学习笔记。  环境准备 安装 nodejs 安装 npm 安装 cnpm npm install -g cnpm
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-08-24 18:48" pubdate>
+              2022-08-24
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/08/24/%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAoffer-oppo/" target="_self">
+          秋天的第一个offer-oppo
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/08/24/%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAoffer-oppo/" target="_self">
+        <div>
+          公司oppo 数据分析工程师 timeline0802 一面自我介绍挑一段印象深刻的实习实习干了啥  有什么难点现在回过头思考之前的项目可以提升的地方扇贝实习，实习干了啥，印象深刻的事情上海图书馆的项目，介绍自己负责的内容，团队成员怎么合作，遇到难点怎么做的。哪些点可以继续提升。反问。 0805 二面自我介绍图书情报是学什么的。数仓有没有用过。扇贝实习内容。上图比赛（难点 负责的内容）用过的分类算
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-08-24 14:32" pubdate>
+              2022-08-24
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
   
 
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
 
 
 
 
 
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
 
 
   
 
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
-
-
-
-  
-  
-
-  
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>
